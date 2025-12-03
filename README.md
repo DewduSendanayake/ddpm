@@ -4,7 +4,7 @@ A PyTorch implementation of **Denoising Diffusion Probabilistic Models (DDPM)** 
 
 ## Overview 📋 
 
-This implementation is based on the DDPM paper and provides a complete training pipeline for generating images using diffusion models. The model learns to reverse a gradual noising process, enabling it to generate high-quality images from pure Gaussian noise.
+This implementation provides a complete training pipeline for generating images using diffusion models. The model learns to reverse a gradual noising process, enabling it to generate high-quality images from pure Gaussian noise.
 
 ### Key Features ✨ 
 
@@ -150,8 +150,16 @@ Ensure your dataset path is correctly set and the directory structure matches th
 
 ## References 📚
 
-- [Denoising Diffusion Probabilistic Models (DDPM) Paper](https://arxiv.org/abs/2006.11239)
-- Original implementation inspired by research in diffusion models
+* [Denoising Diffusion Probabilistic Models — Ho et al. (2020)](https://arxiv.org/pdf/2006.11239)
+* [High-Resolution Image Synthesis with Latent Diffusion Models (LDM) — Rombach et al. (2022)](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
+* [Progressive Distillation for Fast Sampling — Salimans & Ho (2022)](https://arxiv.org/abs/2202.00512)
+* [DPM-Solver / DPM-Solver++ (Fast ODE Solvers) — Lu et al. (2022)](https://arxiv.org/abs/2206.00927)
+* [Structural Pruning for Diffusion Models (Diff-Pruning) — Fang et al. (2023)](https://arxiv.org/abs/2305.10924)
+* [Denoising Diffusion Implicit Models (DDIM) — Song et al. (2020)](https://arxiv.org/pdf/2010.02502)
+* [Improved DDPMs — Nichol & Dhariwal (2021)](https://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf)
+* [Elucidating the Design Space of Diffusion Models (EDM) — Karras et al. (2022)](https://arxiv.org/abs/2206.00364)
+* [Denoising Student / Single-step Distillation — Luhman & Luhman (2021)](https://arxiv.org/abs/2101.02388)
+* [Post-training Quantization for Diffusion (PTQ4DiT / Q-DiT / PQD, 2023–2025)](https://openreview.net/forum?id=NLmAGkN6nn)
 
 ## License 📝
 
