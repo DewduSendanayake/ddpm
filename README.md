@@ -1,4 +1,4 @@
-# 🎨 DDPM - Denoising Diffusion Probabilistic Models 🎨 
+# 🎨 Denoising Diffusion Probabilistic Models 🎨 
 
 A PyTorch implementation of **Denoising Diffusion Probabilistic Models (DDPM)** for unconditional image generation. This project demonstrates how diffusion models progressively denoise random noise into coherent images through a learned reverse diffusion process.
 
