@@ -6,7 +6,6 @@ A PyTorch implementation of **Denoising Diffusion Probabilistic Models (DDPM)** 
 
 This implementation provides a complete training pipeline for generating images using diffusion models. The model learns to reverse a gradual noising process, enabling it to generate high-quality images from pure Gaussian noise.
 
-
 ### Key Features ✨ 
 
 - **UNet Architecture** with self-attention mechanisms
